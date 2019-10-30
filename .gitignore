@@ -1,0 +1,55 @@
+# IDE #
+workspace.xml
+.idea/
+
+# ETC #
+.DS_Store
+node_modules
+.crx
+
+# Created by http://gitignore.io
+
+### Node ###
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+
+pids
+logs
+results
+
+npm-debug.log
+yarn-error.log
+
+### Bower ###
+app/bower_components
+
+
+### Linux ###
+.*
+!.gitignore
+!.git*
+!.editorconfig
+!.npmignore
+!.travis.yml
+!.eslintrc.json
+!.prettierrc
+!.babelrc
+!.npmrc
+*~
+
+
+### SASS ###
+### SASS Ignores - "Sassy CSS" http://sass-lang.com/
+*.sass-cache
+
+
+### Yeoman ###
+dist
+test/temp
